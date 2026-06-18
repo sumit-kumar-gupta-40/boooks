@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>सुमित कुमार गुप्त की पुस्तकें</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:'Kalam', cursive;
+            background:
+                radial-gradient(circle at center,
+                #f8edd0 0%,
+                #e6d3a3 100%);
+            min-height:100vh;
+            padding:40px 20px;
+            color:#4a2c17;
+        }
+
+        .scroll{
+            max-width:950px;
+            margin:auto;
+            background:#f8edd0;
+            padding:50px 40px;
+            border:8px solid #8b5a2b;
+            border-radius:15px;
+
+            box-shadow:
+                0 0 30px rgba(0,0,0,0.25),
+                inset 0 0 80px rgba(139,90,43,0.15);
+        }
+
+        h1{
+            text-align:center;
+            font-size:3rem;
+            color:#5b3a1e;
+            margin-bottom:15px;
+            text-shadow:2px 2px 3px rgba(0,0,0,0.15);
+        }
+
+        .subtitle{
+            text-align:center;
+            color:#6b4423;
+            margin-bottom:40px;
+            font-size:1.2rem;
+        }
+
+        .author-section{
+            text-align:center;
+            margin-bottom:50px;
+        }
+
+        .author-image{
+            width:180px;
+            height:180px;
+            object-fit:cover;
+
+            border-radius:50%;
+            border:6px solid #8b5a2b;
+
+            box-shadow:
+                0 0 20px rgba(0,0,0,0.25);
+
+            margin-bottom:25px;
+        }
+
+        .quote{
+            max-width:760px;
+            margin:auto;
+
+            background:rgba(255,255,255,0.25);
+
+            border-left:6px solid #8b5a2b;
+            border-right:6px solid #8b5a2b;
+
+            border-radius:12px;
+
+            padding:25px;
+
+            font-size:1.25rem;
+            line-height:1.9;
+
+            color:#5b3a1e;
+            font-style:italic;
+        }
+
+        .series-section{
+            margin-top:20px;
+        }
+
+        .series-title{
+            text-align:center;
+            font-size:2rem;
+            color:#5b3a1e;
+            margin-bottom:25px;
+            padding-bottom:12px;
+            border-bottom:2px solid #8b5a2b;
+        }
+
+        .book-list{
+            list-style:none;
+        }
+
+        .book-list li{
+            margin:18px 0;
+        }
+
+        .book-list a{
+            display:block;
+            text-decoration:none;
+            color:#4a2c17;
+
+            background:rgba(255,255,255,0.35);
+
+            padding:18px 25px;
+
+            border-left:6px solid #8b5a2b;
+            border-radius:8px;
+
+            transition:all .3s ease;
+
+            font-size:1.3rem;
+        }
+
+        .book-list a:hover{
+            transform:translateX(10px);
+            background:rgba(255,255,255,0.6);
+        }
+
+        .upcoming{
+            display:none;
+        }
+
+        .footer{
+            text-align:center;
+            margin-top:50px;
+            color:#6b4423;
+            font-size:1.1rem;
+        }
+
+        @media (max-width:600px){
+
+            h1{
+                font-size:2rem;
+            }
+
+            .series-title{
+                font-size:1.5rem;
+            }
+
+            .book-list a{
+                font-size:1rem;
+            }
+
+            .author-image{
+                width:140px;
+                height:140px;
+            }
+
+            .quote{
+                font-size:1rem;
+                line-height:1.7;
+            }
+
+            .scroll{
+                padding:30px 20px;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="scroll">
+
+        <h1>📚 सुमित कुमार गुप्त के द्वारा लिखी गई पुस्तकें 📚</h1>
+
+        <p class="subtitle">
+            डिजिटल पुस्तकमाला
+        </p>
+
+        <div class="author-section">
+
+            <!-- अपनी फोटो का नाम यहाँ दें -->
+            <img src="sumit.jpg"
+                 alt="सुमित कुमार गुप्त"
+                 class="author-image">
+
+            <blockquote class="quote">
+
+                ❝ पुस्तकें केवल शुष्क जानकारियों अथवा ज्ञानार्जन का संकलन मात्र नहीं हैं,
+                अपितु वे जीवन के उन अनमोल, जीवंत और चंचल क्षणों को सदैव के लिए
+                स्मृतियों के झरोखे में सुरक्षित रखने का माध्यम हैं, जो अनजाने में ही
+                हमें परिपक्वता प्रदान करते हैं और श्रेष्ठ मानव बनाते हैं। ❞
+
+            </blockquote>
+
+        </div>
+
+        <section class="series-section">
+
+            <h2 class="series-title">
+                📜 हसीन काण्ड श्रृंखला 📜
+            </h2>
+
+            <ul class="book-list">
+
+                <li>
+                    <a href="./छठी कक्षा के हसीन काण्ड.html">
+                        ✒️ छठी कक्षा के हसीन काण्ड
+                    </a>
+                </li>
+
+                <li class="upcoming">
+                    <a href="./सातवीं कक्षा के हसीन काण्ड.pdf">
+                        ✒️ सातवीं कक्षा के हसीन काण्ड
+                    </a>
+                </li>
+
+                <li class="upcoming">
+                    <a href="./आठवीं कक्षा के हसीन काण्ड.pdf">
+                        ✒️ आठवीं कक्षा के हसीन काण्ड
+                    </a>
+                </li>
+
+                <li class="upcoming">
+                    <a href="./नौवीं कक्षा के हसीन काण्ड.pdf">
+                        ✒️ नौवीं कक्षा के हसीन काण्ड
+                    </a>
+                </li>
+
+                <li class="upcoming">
+                    <a href="./दसवीं कक्षा के हसीन काण्ड.pdf">
+                        ✒️ दसवीं कक्षा के हसीन काण्ड
+                    </a>
+                </li>
+
+            </ul>
+
+        </section>
+
+        <div class="footer">
+            ✦ ज्ञानं परमं धनम् ✦
+        </div>
+
+    </div>
+
+</body>
+</html>
