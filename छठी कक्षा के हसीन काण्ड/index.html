@@ -319,10 +319,10 @@ body::before{
     <div class="footer">
         ✦ लेखक: सुमित कुमार गुप्ता ✦
         <br>
-        <small>© 2026 सर्वाधिकार सुरक्षित</small>
+        <small>© <span id="year"></span> सर्वाधिकार सुरक्षित</small>
     </div>
 
 </div>
-
+<script> document.getElementById('year').innerText = new Date().getFullYear();</script>
 </body>
 </html>
