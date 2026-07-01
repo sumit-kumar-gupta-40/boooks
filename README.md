@@ -4,15 +4,7 @@
 
 विद्यालय जीवन की मधुर स्मृतियों, मित्रता, शरारतों, हास्य, रोमांच तथा अविस्मरणीय घटनाओं से परिपूर्ण यह पुस्तक पाठकों को छठी कक्षा के सुनहरे दिनों की एक अद्भुत यात्रा पर ले जाती है।
 
-<img src="sumit.jpg" alt="सुमित कुमार गुप्त" class="author-image" data-ai-detector-processed="true" style="
-    box-shadow: 0 0 20px rgba(0, 0, 0, .25), 0 0 40px rgba(212, 175, 55, .35);
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 8px solid #8b5a2b;
-    transition: .4s;
-">
+<img src="sumit.jpg" alt="सुमित कुमार गुप्त" style="border-radius: 50%;">
 
 > *❝ पुस्तकें केवल शुष्क जानकारियों अथवा ज्ञानार्जन का संकलन मात्र नहीं हैं,
 अपितु वे जीवन के उन अनमोल, जीवंत और चंचल क्षणों को सदैव के लिए
