@@ -867,21 +867,6 @@ function jumpToPage(targetPage){
     }
   }, 300);
 }
-
-let startX = 0;
-let endX = 0;
-const book = document.getElementById("book");
-
-book.addEventListener("touchstart", (e) => {
-  startX = e.changedTouches.item(0).screenX;
-});
-
-book.addEventListener("touchend", (e) => {
-  endX = e.changedTouches.item(0).screenX;
-  const swipeDistance = endX - startX;
-  if(swipeDistance < -50) nextPage();
-  if(swipeDistance > 50) prevPage();
-});
 </script>
 </body>
 </html>
